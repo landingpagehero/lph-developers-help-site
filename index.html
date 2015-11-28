@@ -1,0 +1,39 @@
+<h2>LPH developer help</h2>
+
+<h3>Local dev tool</h3>
+
+<p>
+    The dev tool below replicates some of the LPH server functionality:
+    it compiles files named .scss (written in SCSS) to .css (normal CSS),
+    and compiles files named .js6 (written in ES6) to .js (ES5).
+    These changes are done on the server automatically, so you should use this tool
+    locally too. It can be thought of as a quick Grunt/Gulp replacement.
+</p>
+
+<p>
+    Linux user? Download the tool with:<br />
+    <tt>sudo curl developers.lph.megathings.co.uk/tool-for-linux -o /usr/bin/lph &amp;&amp; sudo chmod +x /usr/bin/lph</tt>
+</p>
+
+<p>
+    Mac user? Download the tool with:<br />
+    <tt>sudo curl developers.lph.megathings.co.uk/tool-for-mac -o /usr/bin/lph &amp;&amp; sudo chmod +x /usr/bin/lph</tt>
+</p>
+
+<p>
+    Now just run the command <tt>lph</tt> in any directory and files in the
+    directories `./styles/` and `./scripts/` will be compiled and watched for
+    changes.
+</p>
+
+<p>
+    The tool's source code is available <a href="https://github.com/landingpagehero/lph-dev-helper">on GitHub</a>.
+</p>
+
+<h3>Example templates</h3>
+
+<p>
+    <a href="https://github.com/landingpagehero/example-template-foobar-conference-registration">
+        Foobar conference registration
+    </a>
+</p>
